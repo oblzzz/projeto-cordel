@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+:root{
+    --fontreta: "Passion One", sans-serif;
+    --fontcors: "Sriracha", cursive;
+}
+
+html{
+    
+}
+
+html, body{
+    min-height: 100%;
+    font-family: var(--fontcors);
+}
+
+header{
+    background-color: rgb(31, 30, 39);
+    color: white;
+    text-align: center;
+    font-family: var(--fontreta);
+    font-weight: 300;
+}
+
+header > h1{
+    padding-top: 3rem;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 3rem;
+}
+
+a{
+    text-decoration: none;;
+    color: #fff8dd;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+    text-decoration-color: #fff8dd;
+    color: burlywood;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: darkgray;
+    color: white;
+    background-size: cover;
+    box-shadow: inset 0px 7px 11px 0px rgba(0, 0, 0, 0.316);
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    display: inline-block;
+    padding: 0.3125rem;
+    background-color: rgba(0, 0, 0, 0.231);
+    max-width: 25rem;
+}
+
+section{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    line-height: 1.8rem;
+}
+
+section > p{
+    padding-bottom: 1rem;
+}
+
+.imagem.joana{
+    background-image: url(../pacote-d012/imagens/background001.jpg);
+    background-position: center right;
+}
+
+.imagem.papel{
+    background-image: url(../pacote-d012/imagens/background002.jpg);
+    background-position: center right;
+}
+
+footer{
+    font-family: var(--fontreta);
+    font-weight: 300;
+    background-color: rgb(31, 30, 39);
+    text-align: center;
+    color: antiquewhite;
+    padding: 0.5rem 0 0.5rem 0;
+}
